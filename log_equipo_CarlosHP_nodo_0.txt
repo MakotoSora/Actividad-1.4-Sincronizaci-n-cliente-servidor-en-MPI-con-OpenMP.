@@ -1,0 +1,31 @@
+===== Integrantes: Hermosillo Prado Carlos, Montes de Oca del Risco Rafael Alejandro, Ramirez Andrade Uriel Ismael Guadalupe
+===== Equipo: CarlosHP | Rango MPI: 0 | Hilos OpenMP: 8
+
+--- SIMULACION BASICA ---
+[Equipo: CarlosHP] [Nodo MPI: 0 Servidor] [Cliente: 3] [Hilo OpenMP: 2] [Op: Deposito] [Monto: $201.00] [Estado: Aprobado] [Saldo: $10201.00]
+[Equipo: CarlosHP] [Nodo MPI: 0 Servidor] [Cliente: 3] [Hilo OpenMP: 0] [Op: Deposito] [Monto: $1472.00] [Estado: Aprobado] [Saldo: $11673.00]
+[Equipo: CarlosHP] [Nodo MPI: 0 Servidor] [Cliente: 1] [Hilo OpenMP: 3] [Op: Retiro] [Monto: $1956.00] [Estado: Aprobado] [Saldo: $9717.00]
+[Equipo: CarlosHP] [Nodo MPI: 0 Servidor] [Cliente: 1] [Hilo OpenMP: 2] [Op: Retiro] [Monto: $1208.00] [Estado: Aprobado] [Saldo: $8509.00]
+[Equipo: CarlosHP] [Nodo MPI: 0 Servidor] [Cliente: 3] [Hilo OpenMP: 3] [Op: Deposito] [Monto: $950.00] [Estado: Aprobado] [Saldo: $9459.00]
+[Equipo: CarlosHP] [Nodo MPI: 0 Servidor] [Cliente: 1] [Hilo OpenMP: 1] [Op: Retiro] [Monto: $459.00] [Estado: Aprobado] [Saldo: $9000.00]
+[Equipo: CarlosHP] [Nodo MPI: 0 Servidor] [Cliente: 1] [Hilo OpenMP: 0] [Op: Retiro] [Monto: $479.00] [Estado: Aprobado] [Saldo: $8521.00]
+[Equipo: CarlosHP] [Nodo MPI: 0 Servidor] [Cliente: 3] [Hilo OpenMP: 1] [Op: Deposito] [Monto: $221.00] [Estado: Aprobado] [Saldo: $8742.00]
+[Equipo: CarlosHP] [Nodo MPI: 0 Servidor] [Cliente: 1] [Hilo OpenMP: 0] [Op: Consulta] [Monto: $0.00] [Estado: Aprobado] [Saldo: $8742.00]
+[Equipo: CarlosHP] [Nodo MPI: 0 Servidor] [Cliente: 3] [Hilo OpenMP: 4] [Op: Retiro] [Monto: $1698.00] [Estado: Aprobado] [Saldo: $7044.00]
+[Equipo: CarlosHP] [Nodo MPI: 0 Servidor] [Cliente: 2] [Hilo OpenMP: 3] [Op: Retiro] [Monto: $1453.00] [Estado: Aprobado] [Saldo: $5591.00]
+[Equipo: CarlosHP] [Nodo MPI: 0 Servidor] [Cliente: 4] [Hilo OpenMP: 4] [Op: Deposito] [Monto: $1195.00] [Estado: Aprobado] [Saldo: $6786.00]
+[Equipo: CarlosHP] [Nodo MPI: 0 Servidor] [Cliente: 4] [Hilo OpenMP: 0] [Op: Consulta] [Monto: $0.00] [Estado: Aprobado] [Saldo: $6786.00]
+[Equipo: CarlosHP] [Nodo MPI: 0 Servidor] [Cliente: 2] [Hilo OpenMP: 1] [Op: Deposito] [Monto: $1956.00] [Estado: Aprobado] [Saldo: $8742.00]
+[Equipo: CarlosHP] [Nodo MPI: 0 Servidor] [Cliente: 4] [Hilo OpenMP: 3] [Op: Deposito] [Monto: $446.00] [Estado: Aprobado] [Saldo: $9188.00]
+[Equipo: CarlosHP] [Nodo MPI: 0 Servidor] [Cliente: 2] [Hilo OpenMP: 0] [Op: Deposito] [Monto: $1976.00] [Estado: Aprobado] [Saldo: $11164.00]
+[Equipo: CarlosHP] [Nodo MPI: 0 Servidor] [Cliente: 2] [Hilo OpenMP: 0] [Op: Retiro] [Monto: $358.00] [Estado: Aprobado] [Saldo: $10806.00]
+[Equipo: CarlosHP] [Nodo MPI: 0 Servidor] [Cliente: 2] [Hilo OpenMP: 2] [Op: Retiro] [Monto: $704.00] [Estado: Aprobado] [Saldo: $10102.00]
+[Equipo: CarlosHP] [Nodo MPI: 0 Servidor] [Cliente: 4] [Hilo OpenMP: 2] [Op: Deposito] [Monto: $1698.00] [Estado: Aprobado] [Saldo: $11800.00]
+[Equipo: CarlosHP] [Nodo MPI: 0 Servidor] [Cliente: 4] [Hilo OpenMP: 1] [Op: Consulta] [Monto: $0.00] [Estado: Aprobado] [Saldo: $11800.00]
+[SERVIDOR] Transacciones procesadas: 20 | Saldo final: $11800.00
+[Equipo: CarlosHP] [Nodo MPI: 0] Tiempo total: 257.5908 segundos
+
+--- SIMULACION MASIVA ---
+[SERVIDOR] Transacciones procesadas: 400000 | Saldo final: $676194.00
+[Equipo: CarlosHP] [Nodo MPI: 0] Tiempo total: 283.7081 segundos
+Saldo final del servidor: $676194.00

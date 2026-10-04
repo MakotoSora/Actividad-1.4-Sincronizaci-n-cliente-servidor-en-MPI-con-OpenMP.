@@ -1,0 +1,15 @@
+===== Integrantes: Hermosillo Prado Carlos, Montes de Oca del Risco Rafael Alejandro, Ramirez Andrade Uriel Ismael Guadalupe
+===== Equipo: DESKTOP-NRB8997 | Rango MPI: 2 | Hilos OpenMP: 4
+
+--- SIMULACION BASICA ---
+[Equipo: DESKTOP-NRB8997] [Proceso MPI: 2] [Hilo OpenMP: 3] [Operacion: Retiro] [Monto: $1453.00] [Estado: Aprobado] [Saldo Final: $5591.00]
+[Equipo: DESKTOP-NRB8997] [Proceso MPI: 2] [Hilo OpenMP: 1] [Operacion: Deposito] [Monto: $1956.00] [Estado: Aprobado] [Saldo Final: $8742.00]
+[Equipo: DESKTOP-NRB8997] [Proceso MPI: 2] [Hilo OpenMP: 0] [Operacion: Deposito] [Monto: $1976.00] [Estado: Aprobado] [Saldo Final: $11164.00]
+[Equipo: DESKTOP-NRB8997] [Proceso MPI: 2] [Hilo OpenMP: 0] [Operacion: Retiro] [Monto: $358.00] [Estado: Aprobado] [Saldo Final: $10806.00]
+[Equipo: DESKTOP-NRB8997] [Proceso MPI: 2] [Hilo OpenMP: 2] [Operacion: Retiro] [Monto: $704.00] [Estado: Aprobado] [Saldo Final: $10102.00]
+[Proceso MPI: 2] Termino de enviar 5 operaciones
+[Equipo: DESKTOP-NRB8997] [Nodo MPI: 2] Tiempo total: 257.5878 segundos
+
+--- SIMULACION MASIVA ---
+[Proceso MPI: 2] Termino de enviar 100000 operaciones
+[Equipo: DESKTOP-NRB8997] [Nodo MPI: 2] Tiempo total: 283.7071 segundos

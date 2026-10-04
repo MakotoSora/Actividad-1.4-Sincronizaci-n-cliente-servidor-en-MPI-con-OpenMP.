@@ -1,0 +1,15 @@
+===== Integrantes: Hermosillo Prado Carlos, Montes de Oca del Risco Rafael Alejandro, Ramirez Andrade Uriel Ismael Guadalupe
+===== Equipo: DESKTOP-C9F9T9F | Rango MPI: 3 | Hilos OpenMP: 8
+
+--- SIMULACION BASICA ---
+[Equipo: DESKTOP-C9F9T9F] [Proceso MPI: 3] [Hilo OpenMP: 2] [Operacion: Deposito] [Monto: $201.00] [Estado: Aprobado] [Saldo Final: $10201.00]
+[Equipo: DESKTOP-C9F9T9F] [Proceso MPI: 3] [Hilo OpenMP: 0] [Operacion: Deposito] [Monto: $1472.00] [Estado: Aprobado] [Saldo Final: $11673.00]
+[Equipo: DESKTOP-C9F9T9F] [Proceso MPI: 3] [Hilo OpenMP: 3] [Operacion: Deposito] [Monto: $950.00] [Estado: Aprobado] [Saldo Final: $9459.00]
+[Equipo: DESKTOP-C9F9T9F] [Proceso MPI: 3] [Hilo OpenMP: 1] [Operacion: Deposito] [Monto: $221.00] [Estado: Aprobado] [Saldo Final: $8742.00]
+[Equipo: DESKTOP-C9F9T9F] [Proceso MPI: 3] [Hilo OpenMP: 4] [Operacion: Retiro] [Monto: $1698.00] [Estado: Aprobado] [Saldo Final: $7044.00]
+[Proceso MPI: 3] Termino de enviar 5 operaciones
+[Equipo: DESKTOP-C9F9T9F] [Nodo MPI: 3] Tiempo total: 257.5884 segundos
+
+--- SIMULACION MASIVA ---
+[Proceso MPI: 3] Termino de enviar 100000 operaciones
+[Equipo: DESKTOP-C9F9T9F] [Nodo MPI: 3] Tiempo total: 283.7058 segundos
