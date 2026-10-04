@@ -17,10 +17,11 @@ Cuenta bancaria compartida bajo el modelo Cliente-Servidor:
 ## Archivos
 | Archivo | Contenido |
 |---|---|
-| `practica1_4.cpp` | Código completo (servidor, clientes, estructuras, logger, menú) |
+| `practica1_4.cpp` | Código completo (servidor, clientes, estructuras de mensaje, log por nodo, menú) |
 | `compilar.bat` | Compilación con MSVC + MS-MPI + OpenMP |
 | `ejecutar_local.bat` | 5 procesos en una PC (1 servidor + 4 clientes) |
 | `ejecutar_red.bat` | Ejecución en clúster de 3 PCs (192.168.137.1 servidor; .165 y .153 clientes) |
+| `log_equipo_*_nodo_*.txt` | Logs generados por cada nodo en la ejecución distribuida |
 
 ## Compilar
 En **Developer Command Prompt for VS (x64)**, dentro de `C:\MPI\Proyecto_MPI`:
